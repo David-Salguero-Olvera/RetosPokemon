@@ -1,0 +1,54 @@
+/*Este es un comentario en CSS :D
+Tipos de selectores
+1. Etiqueta (h1,body,img)
+2.ID la Id es algo específico (#ID) tiene mayor jerarquia que la etiqueta
+3.Clases (.nombredelaclase)
+ Generalmente la clase repetir
+4.TODO
+   *Le da estilo a todo lo que no tenga estilo (lo sobrante)
+ Jerarquia de estilos dentro de un documento HTML
+ 1.El ID se aplica primero
+ 2.Se aplica la clase
+
+
+
+
+
+
+
+*/
+
+*{
+    color: chartreuse;
+}
+
+h2{
+    color:darkmagenta ;
+}
+
+#boston {
+    color:chartreuse ; font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#pas {
+    color:deeppink; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#tres {
+    color: navy; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boton{
+    color:gold ; font-family: fantasy; background-color: black;
+}
+
+#divisor1 {
+    background-color: midnightblue; 
+}
+
+#cuchao{
+    background-color: black;
+}
+
+#ins {
+    margin: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conociento a mi mascota</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <!--rel significa la relacion entre este documento y algun otro-->
+</head>
+<body>
+<!---   malas practicas
+    <style>
+        h2{
+            /*Este es un comentario en CSS En el momento que utilizo la etiqueta <style> todo lo que está dentro NO es html
+            Para aplicar estilos, tenemos que tomar en cuenta 3 elementos
+            1-Selector: El elemento dentro del html que vamos a modificar
+            2.Propiedad o atributo que vamos a modificar
+            3-El valor específico de lo que queremos cambiar    */
+            color:indigo; 
+            font:lighter ;
+            font-size: medium;
+            
+            
+        }
+        p{
+           color:rgb(4, 61, 32) ;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>
+    <h2>Les presento al motivo de mis alegrías: Guts</h2>
+    <p>Es un Boston Terrier de 8 meses  </p>
+    <p>Su pasatiempo favorito es jugar con su pelota</p>
+    <img src="/assets/img/gutsu.jpg" width="500">
+    <p>Es una mascota bastante alegre, muy friolento, no sabe orinar como perro macho y cuando tiene que hacer del baño se moja toda su pancita</p>
+
+    <button>Instagram</button>
+    <br>
+    <button>Twitter</button>
+    <br>
+    <button>Pinterest</button>
+    <br>
+    <button>Tinderdogs</button>
+
+
+</body>
+</html>
+
+<!--Malas practicas en html
+    1. Agregar estilos directamente en html
+    Etiqueta
+    <style></style>
+    Todo lo que tenga dentro de mi documento de html puede ser seleccionado para aplicarle un stylo
+    ejemplo etiqueta img y atributo src y a ese atributo src le asignare un valor
+    Hay una etiqueta style y hay un atributo style
+    Jerarquia de estilo:
+    1.Primero se aplica el atributo style  que va dentro de la etiqueta Ejm: (hi style)
+    2.Segundo se aplica la etiqueta style <style>
+
+
+
+
+-->
+
+<h2>Les presento al motivo de mis alegrías: Guts</h2>
+    <p class="parrafo" id="boston">Es un Boston Terrier de 8 meses  </p>
+    <p class="parrafo" id="pas">Su pasatiempo favorito es jugar con su pelota</p>
+    <div class="perro" id="cuchao">
+    <img src="/assets/img/gutsu.jpg" width="500">
+    </div>
+    <p class="parrafo" id="tres">Es una mascota bastante alegre, muy friolento, no sabe orinar como perro macho y cuando tiene que hacer del baño se moja toda su pancita</p>
+
+    <button class="boton" id="ins">Instagram</button>
+    <br>
+    <button class="boton" id="twi">Twitter</button>
+    <br>
+    <button class="boton" id="pin">Pinterest</button>
+    <br>
+    <button class="boton" id="tin">Tinderdogs</button>
+
+<!--Etiquetas para secciones de documento
+    Las etiquetas div y span no tienen ningun signidicado especial, sólo que la etqueta div se define como un elemento bloque y la etiqueta span es un elemento de linea.
+
+    -div: Este es un bloque de texto, se utiliza pra agrupar elementos en una sola seccion o , es decir, si queremos agrupar una imagen y un texto, debemos utilizar un div.
+
+    -span: Este es un texto en linea, se utiliza para agrupar elementos en una sola linea, es decir, si queremos agrupar una imagen y un texto, debemos utilizar un span.
+
+-->
+
+<div class="divisor" id="divisor1">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptatibus officia illum accusantium sapiente impedit minus, quaerat quisquam ex voluptas excepturi natus repellat dolores tempora incidunt nesciunt, unde neque pariatur!</p>
+</div>
+
+</body>
+</html>
